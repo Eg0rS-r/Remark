@@ -1,0 +1,18 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.button {
+	display: block;
+	width: fit-content;
+	padding: 8px 16px;
+	border-radius: 4px;
+	background-color: #ffdd66;
+	font-weight: 500;
+	transition-duration: .3s;
+	&:hover {
+		background-color: #ffe57d;
+	}
+	&--slider {
+		margin: 24px auto 0;
+	}
+}
